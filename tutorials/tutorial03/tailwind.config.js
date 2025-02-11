@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "bg-custom-blue": "#00BAFF",
-        "bg-custom-purple": "#6336FA",
+        "custom-blue": "#00BAFF",
+        "custom-purple": "#6336FA",
       },
     },
     fontFamily: {
