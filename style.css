@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+header {
+    background-color: aquamarine;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 15px 25px;
+    margin: 20px 40px; 
+}
