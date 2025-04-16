@@ -1,0 +1,17 @@
+{
+  "name": "hw04",
+  "scripts": {
+    "build": "vite build",
+    "dev": "concurrently \"tailwindcss -i ./src/css/input.css -o public/output.css --watch\" \"vite dev\""
+  },
+  "devDependencies": {
+    "concurrently": "*",
+    "tailwindcss": "^3.4.11",
+    "vite": "*"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "react": "*",
+    "react-dom": "*"
+  }
+}
